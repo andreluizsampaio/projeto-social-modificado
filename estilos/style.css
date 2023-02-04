@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 537px;
+    width: 600px;
+    background: url(../imagens/pc2.png);
+
+}
+
+iframe#tela {
+    position: relative;
+    top:  52px;
+    left: 148px;
+    width: 271px;
+    height: 205px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    background-color: #6e705e;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0px #4f5048;
+}
+
+section#redes-sociais img:hover {
+    background-color: #39bd36;
+    border: 3px solid black;
+    transform: translate(3px, 3px);
+    box-shadow: none;
+    transition: transform .3s, border 1s;
+}

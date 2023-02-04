@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Minha Fonte';
+    src: url('../fontes/Calculator.ttf');
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Minha Fonte';
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    display: block;
+    background-color: #000000;
+    color: #39bd36;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+a:hover {
+    background-color: #105d0e;
+}
